@@ -1,5 +1,14 @@
 # Post-contenido — Unidad 12: Despliegue y CI/CD
 
+## Información del Estudiante
+* **Nombre:** Andrea Valentina Rivera Fernández
+* **Código:** 1152444
+* **Institución:** Universidad Francisco de Paula Santander (UFPS)
+* **Carrera:** Ingeniería de Sistemas
+* **Materia:** Programación Web
+* **Unidad:** 12
+* **Año:** 2026
+
 ## Descripción
 
 Repositorio del laboratorio de la Unidad 12 de Programación Web. Contiene la
@@ -121,6 +130,7 @@ Smoke test dentro del pipeline:
 
 ![Smoke test](capturas/p2-04-smoke-test-log.png)
 
+
 ## Despliegue (paso final manual)
 
 La aplicación está desplegada en Railway a partir del mismo Dockerfile, con las variables de entorno configuradas en el panel de la plataforma y una base de datos PostgreSQL gestionada por Railway.
@@ -129,5 +139,13 @@ La aplicación está desplegada en Railway a partir del mismo Dockerfile, con la
 - Estado: https://rivera-post1-u12-production.up.railway.app/actuator/health
 
 ![Panel de Railway](capturas/p2-05-railway-panel.png)
+
 ![Variables de entorno en Railway](capturas/p2-06-railway-variables.png)
+
 ![Health en la URL pública](capturas/p2-07-railway-health.png)
+
+### Historial del pipeline
+
+Ejecuciones exitosas de GitHub Actions:
+
+![GitHub Actions](capturas/p2-03-github-actions-verde.png)
