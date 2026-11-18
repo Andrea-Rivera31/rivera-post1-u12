@@ -120,3 +120,14 @@ En prod, `/actuator/beans` responde 404:
 Smoke test dentro del pipeline:
 
 ![Smoke test](capturas/p2-04-smoke-test-log.png)
+
+## Despliegue (paso final manual)
+
+La aplicación está desplegada en Railway a partir del mismo Dockerfile, con las variables de entorno configuradas en el panel de la plataforma y una base de datos PostgreSQL gestionada por Railway.
+
+- URL de la aplicación: https://rivera-post1-u12-production.up.railway.app
+- Estado: https://rivera-post1-u12-production.up.railway.app/actuator/health
+
+![Panel de Railway](capturas/p2-05-railway-panel.png)
+![Variables de entorno en Railway](capturas/p2-06-railway-variables.png)
+![Health en la URL pública](capturas/p2-07-railway-health.png)
